@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://marketplace.canva.com/EAFYIWPCudg/1/0/1600w/canva-papel-de-parede-para-computador-astronauta-gal%C3%A1xia-preto-e-branco-lKp1cXK1ybY.jpg"), #000;
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 400px;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7px); /*Permite aplicar um efeito de filttro como desfoque, à área de fundo de um elemento, incluindo qualquer coisa que esteja por trás dele.*/
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+button {
+  width: 50%;
+  margin-top: 10px;
+  border: none;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  color: #000;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: auto;
+}
+
+button:hover {
+  padding: 10px;
+  color: #fff;
+  border: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cadastro {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+
+/* .cadastro label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: azure;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+} */
+
+.cadastro input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.salvar-informacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+}
+
+.salvar-informacao label{
+  color: #fff;
+  cursor: pointer;
+}
+#salvar_senha {
+  margin: 10px;
+}
+
+.salvar-informacao label {
+  display: flex;
+  align-items: center;
+}
+
+.salvar-informacao label p {
+  margin-left: 8px;
+}
+
+.container a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.criar_conta {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais li {
+  list-style: none;
+  margin: 20px 15px;
+  /* padding: 10px; */
+  border: 3px solid transparent;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.redes-sociais a {
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  /* border: 2px solid red; */
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 30px;
+  transition: 0.2s;
+  color: #000000;
+}
+.redes-sociais a:hover {
+  color: #fff;
+  border: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.redes-sociais a i {
+  font-size: 30px;
+  margin: auto;
+}
